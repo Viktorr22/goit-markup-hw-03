@@ -98,8 +98,8 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
   display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link:hover,
 .link:focus {
@@ -292,6 +292,9 @@ body {
 }
 .address-item {
   margin-bottom: 10px;
+}
+.last-item {
+  margin-bottom: 9px;
 }
 .studio-footer {
   color: var(--text-color-hero);
