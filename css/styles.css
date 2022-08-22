@@ -290,12 +290,10 @@ body {
 .address {
   margin-top: 20px;
 }
-.address-item {
-  margin-bottom: 10px;
-}
-.last-item {
+.address-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .studio-footer {
   color: var(--text-color-hero);
 }
